@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: WITT_Jonathan_TP5
+# Project: GIRARD_ADRIEN_TP5
 # Configurations: Debug
 # =============================================================================
 
@@ -39,52 +39,46 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/jonat/Programmation/cpp/WITT_Jonathan_TP5/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/adrie/CLionProjects/girard_Advcpp_Tp5/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target WITT_Jonathan_TP5
+# Object build statements for EXECUTABLE target GIRARD_ADRIEN_TP5
 
 
 #############################################
-# Order-only phony target for WITT_Jonathan_TP5
+# Order-only phony target for GIRARD_ADRIEN_TP5
 
-build cmake_object_order_depends_target_WITT_Jonathan_TP5: phony || CMakeFiles/WITT_Jonathan_TP5.dir
+build cmake_object_order_depends_target_GIRARD_ADRIEN_TP5: phony || CMakeFiles/GIRARD_ADRIEN_TP5.dir
 
-build CMakeFiles/WITT_Jonathan_TP5.dir/main.cpp.obj: CXX_COMPILER__WITT_Jonathan_TP5_Debug D$:/jonat/Programmation/cpp/WITT_Jonathan_TP5/main.cpp || cmake_object_order_depends_target_WITT_Jonathan_TP5
-  DEP_FILE = CMakeFiles\WITT_Jonathan_TP5.dir\main.cpp.obj.d
+build CMakeFiles/GIRARD_ADRIEN_TP5.dir/main.cpp.obj: CXX_COMPILER__GIRARD_ADRIEN_TP5_Debug C$:/Users/adrie/CLionProjects/girard_Advcpp_Tp5/main.cpp || cmake_object_order_depends_target_GIRARD_ADRIEN_TP5
+  DEP_FILE = CMakeFiles\GIRARD_ADRIEN_TP5.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\WITT_Jonathan_TP5.dir
-  OBJECT_FILE_DIR = CMakeFiles\WITT_Jonathan_TP5.dir
-
-build CMakeFiles/WITT_Jonathan_TP5.dir/Stack.cpp.obj: CXX_COMPILER__WITT_Jonathan_TP5_Debug D$:/jonat/Programmation/cpp/WITT_Jonathan_TP5/Stack.cpp || cmake_object_order_depends_target_WITT_Jonathan_TP5
-  DEP_FILE = CMakeFiles\WITT_Jonathan_TP5.dir\Stack.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\WITT_Jonathan_TP5.dir
-  OBJECT_FILE_DIR = CMakeFiles\WITT_Jonathan_TP5.dir
+  OBJECT_DIR = CMakeFiles\GIRARD_ADRIEN_TP5.dir
+  OBJECT_FILE_DIR = CMakeFiles\GIRARD_ADRIEN_TP5.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target WITT_Jonathan_TP5
+# Link build statements for EXECUTABLE target GIRARD_ADRIEN_TP5
 
 
 #############################################
-# Link the executable WITT_Jonathan_TP5.exe
+# Link the executable GIRARD_ADRIEN_TP5.exe
 
-build WITT_Jonathan_TP5.exe: CXX_EXECUTABLE_LINKER__WITT_Jonathan_TP5_Debug CMakeFiles/WITT_Jonathan_TP5.dir/main.cpp.obj CMakeFiles/WITT_Jonathan_TP5.dir/Stack.cpp.obj
+build GIRARD_ADRIEN_TP5.exe: CXX_EXECUTABLE_LINKER__GIRARD_ADRIEN_TP5_Debug CMakeFiles/GIRARD_ADRIEN_TP5.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\WITT_Jonathan_TP5.dir
+  OBJECT_DIR = CMakeFiles\GIRARD_ADRIEN_TP5.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = WITT_Jonathan_TP5.exe
-  TARGET_IMPLIB = libWITT_Jonathan_TP5.dll.a
-  TARGET_PDB = WITT_Jonathan_TP5.exe.dbg
+  TARGET_FILE = GIRARD_ADRIEN_TP5.exe
+  TARGET_IMPLIB = libGIRARD_ADRIEN_TP5.dll.a
+  TARGET_PDB = GIRARD_ADRIEN_TP5.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\jonat\Programmation\cpp\WITT_Jonathan_TP5\cmake-build-debug && "D:\jonat\Programmation\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\adrie\CLionProjects\girard_Advcpp_Tp5\cmake-build-debug && D:\Users\adrie\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -95,7 +89,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\jonat\Programmation\cpp\WITT_Jonathan_TP5\cmake-build-debug && "D:\jonat\Programmation\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\jonat\Programmation\cpp\WITT_Jonathan_TP5 -BD:\jonat\Programmation\cpp\WITT_Jonathan_TP5\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\adrie\CLionProjects\girard_Advcpp_Tp5\cmake-build-debug && D:\Users\adrie\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\adrie\CLionProjects\girard_Advcpp_Tp5 -BC:\Users\adrie\CLionProjects\girard_Advcpp_Tp5\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -105,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build WITT_Jonathan_TP5: phony WITT_Jonathan_TP5.exe
+build GIRARD_ADRIEN_TP5: phony GIRARD_ADRIEN_TP5.exe
 
 # =============================================================================
 # Folder targets.
@@ -113,9 +107,9 @@ build WITT_Jonathan_TP5: phony WITT_Jonathan_TP5.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/jonat/Programmation/cpp/WITT_Jonathan_TP5/cmake-build-debug
+# Folder: C:/Users/adrie/CLionProjects/girard_Advcpp_Tp5/cmake-build-debug
 
-build all: phony WITT_Jonathan_TP5.exe
+build all: phony GIRARD_ADRIEN_TP5.exe
 
 # =============================================================================
 # Built-in targets
@@ -124,14 +118,14 @@ build all: phony WITT_Jonathan_TP5.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake D$:/jonat/Programmation/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake: phony
+build ../CMakeLists.txt CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake D$:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

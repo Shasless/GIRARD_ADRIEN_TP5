@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/bin/g++.exe")
+set(CMAKE_CXX_COMPILER "D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "11.2.0")
@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/bin/ld.exe")
+set(CMAKE_AR "D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/include;D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/x86_64-w64-mingw32/include;/MinGW/include")
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/include;D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0;D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib/gcc;D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/x86_64-w64-mingw32/lib;D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

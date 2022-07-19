@@ -1,15 +1,16 @@
 //
-// Created by jonat on 19/07/2022.
+// Created by adrie on 19/07/2022.
 //
 
-#ifndef WITT_JONATHAN_TP5_STACK_H
-#define WITT_JONATHAN_TP5_STACK_H
+#ifndef GIRARD_ADRIEN_TP5_STACK_H
+#define GIRARD_ADRIEN_TP5_STACK_H
 #include "iostream"
-template<class T>
+
+template<typename T>
 
 struct StackNode{
+    T data;
     StackNode* next;
-    T val;
 };
 template<class T>
 class Stack {
@@ -27,13 +28,13 @@ public:
         list = nullptr;
         StackNode<T>* temp =stack.list;
         while (temp!= nullptr){
-            addNode(temp->val);
+            addNode(temp->data);
             temp=temp->next;
         }
     }
     StackNode<T>* createNode(T value){
         StackNode<T>* newNode = new StackNode<T>;
-        newNode->val=value;
+        newNode->data=value;
         newNode->next= nullptr;
         return newNode;
     }
@@ -57,9 +58,11 @@ public:
     }
     std::ostream & print(std::ostream& os){
         StackNode<T> *temp = list;
-        while (temp!= nullptr){
-            os<<temp->val<<" ";
+        while (true){
+            os<<temp->data<<" ";
             temp=temp->next;
+            if(temp==nullptr) break;
+            else os<<"-> ";
         }
         return os;
     }
@@ -86,7 +89,7 @@ public:
              list = nullptr;
              StackNode<T>* temp =stack.list;
              while (temp!= nullptr){
-                 addNode(temp->val);
+                 addNode(temp->data);
                  temp=temp->next;
              }
          }
@@ -94,25 +97,31 @@ public:
     }
 
     T pop(){
+        try {
+            popelem();
+        }catch (const std::length_error & e){
+            std::cout<<e.what()<<std::endl;
+        }
+    }
+    T popelem(){
         if (list != nullptr) {
             StackNode<T> *firstNode = list;
             list=list->next;
-            int value = firstNode->val;
+            int value = firstNode->data;
             delete firstNode;
             return value;
         }else{
-            throw std::length_error("Trying to pop when there is nothing in the list");
+            throw std::length_error("Error try to pop an empty list");
         }
     }
-
     int getSize(){
-        int cpt=0;
+        int size=0;
         StackNode<T>* temp = list;
         while (temp!= nullptr){
             temp = temp->next;
-            cpt++;
+            size++;
         }
-        return cpt;
+        return size;
     }
 
     bool isEmpty(){
@@ -126,4 +135,4 @@ private:
 };
 
 
-#endif //WITT_JONATHAN_TP5_STACK_H
+#endif //GIRARD_ADRIEN_TP5_STACK_H

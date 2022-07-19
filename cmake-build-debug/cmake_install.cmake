@@ -1,4 +1,4 @@
-# Install script for directory: D:/jonat/Programmation/cpp/WITT_Jonathan_TP5
+# Install script for directory: C:/Users/adrie/CLionProjects/girard_Advcpp_Tp5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/jonat/Programmation/CLion 2022.1.2/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/Users/adrie/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/jonat/Programmation/cpp/WITT_Jonathan_TP5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/adrie/CLionProjects/girard_Advcpp_Tp5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
