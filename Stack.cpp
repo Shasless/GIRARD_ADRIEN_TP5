@@ -3,7 +3,7 @@
 //
 
 #include "Stack.h"
-template<class T>
+/*template<class T>
 Stack<T>::Stack() {
     list= nullptr;
 }
@@ -27,7 +27,7 @@ StackNode<T> Stack<T>::createNode(T value) {
 }
 
 template<class T>
-void Stack<T>::addNode(T value) {
+void Stack<T>::push(T value) {
     if(list!= nullptr) {
         StackNode<T> *temp = list;
         while (temp->next != nullptr) {
@@ -53,3 +53,4 @@ template<class T>
 std::ostream & operator<<(std::ostream& os,Stack<T> & stack){
     return stack.print(os);
 }
+*/
